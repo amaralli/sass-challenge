@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+/*examples of variables*/
+/*example of function*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000317}}
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/background.jpg); }
+
+/*Example of nesting*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000329}}
+nav ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000337}}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000343}}
+nav a:link {
+  color: #0000AA; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000347}}
+nav a:hover, nav a:focus {
+  color: #0000EE; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000354}}
+a:link, a:visited {
+  text-decoration: none;
+  color: #0000AA; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000359}}
+a:hover, a:focus {
+  color: #0000EE; }
+
+/*example of inheritance*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000366}}
+h3, h1, h2 {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 125%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000372}}
+h1 {
+  font-size: 300%;
+  margin: 0;
+  color: #505050; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000379}}
+h2 {
+  font-size: 150%;
+  margin: 0px;
+  color: #505050; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000387}}
+main {
+  background-image: url(../img/ricepaper_v3.png);
+  opacity: 0.9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\0000394}}
+#Header {
+  padding: 1em;
+  background-color: #EC791F;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #EA4A00;
+  border-top-style: solid;
+  border-top-color: #ce5b01;
+  color: #FFFFFF;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003106}}
+#Header p {
+  color: #EEEEEE;
+  font-size: 120%;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003112}}
+#BasicInfo {
+  padding: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003116}}
+#BasicInfo a {
+  border-bottom: 0;
+  border-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003121}}
+#Menu {
+  padding: 1em;
+  background: rgba(207, 205, 140, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003126}}
+#Menu dt {
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003130}}
+#Menu dd {
+  font-size: 80%;
+  font-style: italic;
+  margin-left: 1em;
+  margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003137}}
+#About {
+  padding: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003141}}
+footer {
+  padding: 1em;
+  background-color: #EC791F;
+  border-top: 5px;
+  border-top-style: solid;
+  border-top-color: #EA4A00;
+  border-bottom-style: solid;
+  border-bottom-color: #ff973d;
+  font-size: 80%;
+  text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003153}}
+.row {
+  margin: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003157}}
+.col-md-6 {
+  padding-left: 0em; }
+
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003162}}
+  body {
+    font-size: 16px;
+    background-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003167}}
+  .container-fluid {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003173}}
+  #Header p {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003177}}
+  main {
+    margin: 0px; } }
+@media screen and (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003184}}
+  nav ul {
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+
+  /*example of an expression*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Alicheae\/Documents\/sass-challenge\/css\/main\.scss}line{font-family:\00003191}}
+  .container-fluid {
+    margin-left: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0em; } }
+
+/*# sourceMappingURL=main.css.map */
